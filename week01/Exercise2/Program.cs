@@ -41,7 +41,7 @@ class Program
             sign = "-";
         }
         
-        if (letter == "A" && sign == "+")
+        if (letter == "A")
         {
             sign = "";
         }
