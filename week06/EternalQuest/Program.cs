@@ -1,9 +1,16 @@
 using System;
 
-class Program
+namespace EternalQuest
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to the Eternal Quest Program!");
+            Console.WriteLine("Embark on your journey to achieve your goals and earn rewards!");
+            
+            GoalManager goalManager = new GoalManager();
+            goalManager.Start();
+        }
     }
 }
